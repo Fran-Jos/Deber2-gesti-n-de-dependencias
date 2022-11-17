@@ -57,7 +57,6 @@ public class ComprobanteDeVenta {
 		this.cliente.setNombre(NombreCliente);
 		this.cliente.setSexo(s);
 		
-		
 		confirmacionDeVenta(this);
 		
 	}
