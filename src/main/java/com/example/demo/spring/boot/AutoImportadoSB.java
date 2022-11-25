@@ -1,9 +1,18 @@
-package tradicionalDeber;
+package com.example.demo.spring.boot;
 
-public class AutoImportado extends Auto{
+import org.springframework.stereotype.Component;
+
+@Component
+public class AutoImportadoSB extends AutoSB{
 
 	private String PaisDeImportacion;
 	private String CostoDeImportacion;
+	
+	public Integer descuento() {
+		// TODO Auto-generated method stub
+		System.out.println("Aplica el 5% de descuento");
+		return 05;
+	}
 	
 	public String getPaisDeImportacion() {
 		return PaisDeImportacion;

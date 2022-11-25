@@ -1,6 +1,9 @@
-package tradicionalDeber;
+package com.example.demo.spring.boot;
 
-public enum TipoAuto {
+
+
+
+public enum TipoAutoSB {
 Automovil_simple,
 Automovil_full,
 Todo_Terreno,

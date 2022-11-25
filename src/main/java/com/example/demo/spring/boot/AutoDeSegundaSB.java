@@ -1,9 +1,19 @@
-package tradicionalDeber;
+package com.example.demo.spring.boot;
 
-public class AutoDeSegunda extends Auto {
+import org.springframework.stereotype.Component;
+
+@Component
+public class AutoDeSegundaSB extends AutoSB {
 private String nombreExDuenio;
 private int cedulaExDuenio;
 private String km_recorridos ;
+
+ 
+	public Integer descuento() {
+		System.out.println("No aplica descuento COSTO FIJO");
+		return 0;
+	}
+
 public String getNombreExDuenio() {
 	return nombreExDuenio;
 }

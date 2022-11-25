@@ -1,4 +1,4 @@
-package tradicionalDeber;
+package com.example.tradicionalDeber;
 
 public class Cliente {
 	
